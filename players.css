@@ -1,8 +1,6 @@
 .sectionholder{
     display: flex;
     flex-direction: column;
-    
-
 }
 .cardholder{
     margin-top: 20px;
@@ -11,12 +9,24 @@
 padding-top: 100px;
 }
 .section2{
+    padding-top: 60px;
     padding: 20px;
 
 }
 .card{
     border-radius: 10px;
     border: 2px solid black;
+}
+.card1{
+    width: 18rem; 
+    float: left; 
+    margin-left: 40px;
+}
+.card2{
+    width: 18rem; float: left; margin-left: 210px;
+}
+.card3{
+    width: 18rem; float: right; margin-right: 40px;
 }
     
 
@@ -47,5 +57,48 @@ padding-top: 100px;
     padding: 8px; /* Add padding to table cells */
     border: 1px solid #ddd; /* Add borders to table cells */
     text-align: center; /* Align text to the left in cells */
+  }
+  
+
+  @media screen and (max-width: 480px) {
+    .sectionholder{
+        flex-direction: row;
+        
+    }
+    .card{
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+  }
+
+
+  .cardholder {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+  }
+  
+  .card {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust the width of each card */
+    /* flex-basis: calc(33.333% - 20px); */ /* Alternative way for older browsers */
+    margin: 10px; /* Add margin between cards */
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .card {
+      flex: 0 0 calc(50% - 20px); /* Two cards per row */
+      /* flex-basis: calc(50% - 20px); */ /* Alternative way for older browsers */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      flex: 0 0 calc(100% - 20px); /* Single card per row */
+      /* flex-basis: calc(100% - 20px); */ /* Alternative way for older browsers */
+    }
   }
   
