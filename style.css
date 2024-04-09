@@ -32,3 +32,23 @@
         width: 12vw;
     } 
   }
+
+
+
+
+  /* Default styles for all slides */
+.mySlides {
+  display: none;
+  width: 100%;
+}
+.sliderimg {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for small devices */
+@media only screen and (max-width: 768px) {
+  .pc-slide {
+    display: none; /* Hide PC slides on small devices */
+  }
+}
