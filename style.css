@@ -33,6 +33,17 @@
     } 
   }
 
+.my-div{
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.my-div h3{
+    font-size: medium;
+}
 
 
 
