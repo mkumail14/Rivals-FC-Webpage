@@ -1,0 +1,51 @@
+.sectionholder{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.cardholder{
+    margin-top: 20px;
+}
+.section1{
+padding-top: 100px;
+}
+.section2{
+    padding: 20px;
+
+}
+.card{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+    
+
+.table-container {
+    width: 100%; 
+    overflow-x: auto; 
+  }
+  
+  table {
+    width: 100%; /* Make the table take full width of its container */
+    border-collapse: collapse; /* Merge table borders */
+  }
+  
+  /* Style table header row */
+  tr.HEADINGROW th {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    
+  }
+  
+  /* Style table rows */
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row color */
+  }
+  
+  th, td {
+    padding: 8px; /* Add padding to table cells */
+    border: 1px solid #ddd; /* Add borders to table cells */
+    text-align: center; /* Align text to the left in cells */
+  }
+  
