@@ -6,7 +6,6 @@
 }
 .navbarlogo{
   height: 14vh; 
-  width: 10vw;
 }
 
 .btn{
@@ -34,7 +33,6 @@
 @media screen and (max-width: 480px) {
   .navbarlogo{
       height: 7vh; 
-      width: 12vw;
   } 
 }
 
