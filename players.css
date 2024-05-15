@@ -1,3 +1,9 @@
+.exPlayer{
+    background-color:"red";
+}
+
+
+
 .sectionholder{
     display: flex;
     flex-direction: column;
